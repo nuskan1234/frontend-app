@@ -1,0 +1,57 @@
+.admin-home-container {
+    padding: 20px;
+  }
+  
+  .food-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .food-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .food-item-image {
+    width: 100%;
+    display: block;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .food-item-name {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .food-item-price {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #f8f8f8;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px auto;
+    cursor: pointer;
+    margin-right: 10px;
+    
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

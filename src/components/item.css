@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #ffd801; /* Full-screen yellow background */
+  }
+  
+  .menu-item-details {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    /* Removed background-color here since it's now applied to body */
+  }
+  
+  .menu-item-image1 {
+    width: 750px; /* Adjust the width as needed */
+    height: 500px; /* This will maintain the aspect ratio */
+    border-radius: 8px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 30px; /* Space between image and text */
+    margin-top: 65px;
+  }
+
+  
+  .menu-item-text {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .menu-item-name1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-item-price1 {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  .quantity-selector,
+  .color-selector {
+  margin: 30px 0;
+  }
+
+  .quantity-selector button,
+.add-to-cart-btn,
+.buy-now-btn,
+.color-selector select {
+  background-color: #76dafb; /* Light blue background */
+  color: #000000; /* White text for better readability */
+  border: none; /* Remove default border */
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px; /* Rounded corners for the buttons */
+  cursor: pointer; /* Cursor changes to a pointer on hover */
+}
+
+.quantity-selector button:hover,
+.add-to-cart-btn:hover,
+.buy-now-btn:hover {
+  background-color: #9acfe7; /* Slightly darker blue on hover for a visual effect */
+}
